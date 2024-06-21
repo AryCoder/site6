@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Location</title>
+  <link type="stylesheet" href="styles/form.css">
+</head>
+<body>
+  <h1>Add a Free Food Location</h1>
+
+
+  <form action="/add_location" method="post">
+    <label type="text" for="location" >Food Location Name : </label>
+    <input placeholder="Location Name" id="location" name="location"></input><br><br>
+
+    <label type="text" for="loc_image">Food Location Image : </label>
+    <input type="file" id="foodimg" name="foodimg"><br><br>
+
+    <label type="text" for="time" >Timings :</label>
+    <input placeholder="Timings" id="time" name="time"></input><br><br>
+
+    <label type="text" for="place">Place's Description : </lable><br><br>
+    <textarea style="width:300px;height:200px;" name="placedis" placeholder="place description" id="place"></textarea><br><br>
+
+  <button type="submit" id="submit-btn">Upload</button><br><br>
+  </form>
+
+
+
+  
+</body>
+</html>
